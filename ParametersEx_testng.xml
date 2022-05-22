@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+	<parameter name="browserName" value="CH"/>
+	<parameter name="userName" value="admin"/>
+	<parameter name="password" value="manager"/>
+    <classes>
+      <class name="org.testNgEx3.ParametersEx1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
